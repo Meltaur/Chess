@@ -10,4 +10,4 @@ class Squere:
 
 
     def draw(self):
-        pygame.draw.rect(self.surface, self.color, [self.position[0], self.position[1], 128, 128])
+        pygame.draw.rect(self.surface, self.color, [self.position[0], self.position[1], 64, 64])
